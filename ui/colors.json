@@ -1,0 +1,27 @@
+{
+    "comment-cell-odd": {
+        "r": 32,
+        "g": 49,
+        "b": 130
+    },
+    "comment-cell-even": {
+        "r": 51,
+        "g": 69,
+        "b": 153
+    },
+    "comment-cell-bg-odd": {
+        "r": 32,
+        "g": 49,
+        "b": 130
+    },
+    "comment-cell-bg-even": {
+        "r": 51,
+        "g": 69,
+        "b": 153
+    },
+    "comment-list-layer-bg": {
+        "r": 51,
+        "g": 69,
+        "b": 153
+    }
+}

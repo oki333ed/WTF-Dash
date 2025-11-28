@@ -1,0 +1,17 @@
+{
+    "children": {
+        "node": {
+            "main-menu": {
+                "children": {
+                    "node": {
+                        "play-button": {
+                            "attributes": {
+                                "actions": [ { "type": "RotateBy", "repeat": true, "value": 180, "duration": 20 } ]
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

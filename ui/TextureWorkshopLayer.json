@@ -1,0 +1,140 @@
+{
+    "children": {
+        "node": {
+            "background": {
+                "attributes": {
+                    "visible": false
+                }
+            },
+            "background-overlay": {
+                "attributes": {
+                    "visible": false
+                }
+            },
+            "button-menu": {
+                "children": {
+                    "node": {
+                        "refresh-button": {
+                            "attributes": {
+                                "sprite": "GJ_updateBtn_001.png"
+                            }
+                        },
+                        "files-button": {
+                            "attributes": {
+                                "sprite": "gj_folderBtn_001.png"
+                            }
+                        }
+                    }
+                }
+            },
+            "content-background": {
+                "attributes": {
+                    "position": { "x": 0, "y": 6, "anchor": { "to": "center", "relative": "screen" } }
+                }
+            },
+            "outline": {
+                "attributes": {
+                    "opacity": 0,
+                    "position": { "x": 0, "y": 6, "anchor": { "to": "center", "relative": "screen" } }
+                },
+                "children": {
+                    "new": [
+                        {
+                            "type": "CCMenu",
+                            "id": "new-outline-9000",
+                            "attributes": {
+                                "position": { "x": 0, "y": 0 },
+                                "content-size": { "width": 325, "height": 253.75 }
+                            },
+                            "children": {
+                                "new": [
+                                    {
+                                        "type": "CCSprite",
+                                        "id": "left-border",
+                                        "attributes": {
+                                            "sprite": "GJ_table_side_001.png",
+                                            "scale": { "x": 1, "y": 3 },
+                                            "position": { "x": 0, "y": -7, "anchor": { "to": "center-left" } }
+                                        }
+                                    },
+                                    {
+                                        "type": "CCSprite",
+                                        "id": "right-border",
+                                        "attributes": {
+                                            "sprite": "GJ_table_side_001.png",
+                                            "scale": { "x": -1, "y": 3 },
+                                            "position": { "x": 0, "y": -7, "anchor": { "to": "center-right" } }
+                                        }
+                                    },
+                                    {
+                                        "type": "CCSprite",
+                                        "id": "bottom-border",
+                                        "attributes": {
+                                            "sprite": "GJ_table_bottom_001.png",
+                                            "scale": { "x": 0.89, "y": 0.89 },
+                                            "position": { "x": 0, "y": 10, "anchor": { "to": "bottom-center" } }
+                                        }
+                                    },
+                                    {
+                                        "type": "CCSprite",
+                                        "id": "top-border",
+                                        "attributes": {
+                                            "sprite": "GJ_table_top_001.png",
+                                            "scale": { "x": 0.89, "y": 0.89 },
+                                            "position": { "x": 0, "y": -25, "anchor": { "to": "top-center" } }
+                                        }
+                                    },
+                                    {
+                                        "type": "CCLabelBMFont",
+                                        "id": "title",
+                                        "attributes": {
+                                            "text": "Texture Packs Workshop",
+                                            "font": "bigFont.fnt",
+                                            "scale": 0.65,
+                                            "position": { "x": 0, "y": -23, "anchor": { "to": "top-center" } }
+                                        }
+                                    }
+                                ]
+                            }
+                            
+                        }
+                    ]
+                }
+            }
+        },
+        "new": [
+            {
+                "type": "CCSprite",
+                "id": "bg",
+                "attributes": {
+                    "sprite": "GJ_gradientBG.png",
+                    "z-order": -2,
+                    "scale": 5,
+                    "color": { "r": 0, "g": 102, "b": 255 },
+                    "position": { "x": 0, "y": 0, "anchor": { "to": "center", "relative": "screen" } }
+                }
+            },
+            {
+                "type": "CCSprite",
+                "id": "left-corner",
+                "attributes": {
+                    "sprite": "GJ_sideArt_001.png",
+                    "z-order": -1,
+                    "position": { "x": 35, "y": 35, "anchor": { "to": "bottom-left", "relative": "screen" }
+                    }
+                }
+            },
+            {
+                "type": "CCSprite",
+                "id": "right-corner",
+                "attributes": {
+                    "sprite": "GJ_sideArt_001.png",
+                    "z-order": -1,
+                    "scale": { "x": -1, "y": 1 },
+                    "position": { "x": -35, "y": 35, "anchor": { "to": "bottom-right", "relative": "screen" }
+                    }
+                }
+            }
+        ]
+    }
+}
